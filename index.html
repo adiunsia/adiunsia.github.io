@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="assets/smart-logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav main-navbar gap-3 gap-md-5">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#course">Course</a>
+              </li>
+              <li class="nav-item">
+                <Button class="btn btn-purple">Contact Us</Button>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- main content -->
+    <div class="container">
+        <div class="row first-section">
+            <div class="col-12 col-md-6">
+                <h1 class="header-home text-center text-md-start">SELAMAT DATANG<br> 
+                DI <span>SMART</span></h1>
+                <p class="text-center text-md-start">Selamat datang di Smart, platform kursus online terbaik di Indonesia! Kami menyediakan program pembelajaran berkualitas tinggi dengan materi terkini yang diajarkan oleh para ahli. Belajar kapan saja dan di mana saja, dan bergabunglah dengan ribuan pelajar lainnya untuk meraih kesuksesan bersama Smart.</p>
+                <div class="d-flex gap-4">
+                    <div>
+                        <a href="#about-us" class="btn btn-purple">Tentang Kami</a>
+                    </div>
+                    <div>
+                        <a href="#course" class="btn btn-tentang-kami fw-bold justify-content-center align-items-center d-flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people-fill me-3" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                              </svg>Lihat Course
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="assets/home-image.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row mt-5 second-section" id="about-us">
+            <div class="col-12 col-md-6">
+                <img src="assets/about-us-image.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-6">
+                <h2 class="purple-subheader fw-bold text-center text-md-start">About Us</h2>
+                <h1 class="section-header text-center text-md-start">Tentang Kami</h1>
+                <p class="mt-3 text-center text-md-start">Kami di Smart adalah platform kursus online terbaik di Indonesia, menyediakan pembelajaran berkualitas tinggi dengan materi terbaru dari para ahli. 
+                    Nikmati fleksibilitas belajar kapan saja dan di mana saja, dan bergabunglah dengan komunitas pelajar kami untuk meraih kesuksesan bersama.
+                </p>
+                <ol class="list-group gap-2 mb-3">
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
+                        <img src="assets/check.png" alt="" class="img-fluid me-3">
+                        <div class="ms-2 me-auto fw-bold">
+                            No 1 Di Indonesia
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
+                        <img src="assets/check.png" alt="" class="img-fluid me-3">
+                        <div class="ms-2 me-auto fw-bold">
+                            Lebih dari 1000+ Materi
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
+                        <img src="assets/check.png" alt="" class="img-fluid me-3">
+                        <div class="ms-2 me-auto fw-bold">
+                            100+ Member Setiap Bulan
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
+                        <img src="assets/check.png" alt="" class="img-fluid me-3">
+                        <div class="ms-2 me-auto fw-bold">
+                            Bersertifikat International
+                        </div>
+                    </li>
+                </ol>
+                <button class="btn btn-purple">Baca Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="third-section" id="course">
+            <h2 class="purple-subheader fw-bold text-center">Course</h2>
+            <h1 class="section-header text-center">Pilihan Course Kami</h1>
+            <div class="card mt-4">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="ps-3">Course</th>
+                            <th class="text-center" scope="col">Video</th>
+                            <th class="text-center" scope="col">Materi</th>
+                            <th class="text-center" scope="col">Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Digital Marketing</td>
+                            <td class="text-center"><img src="assets/check.png" alt=""></td>
+                            <td class="text-center"></td>
+                            <td class="text-center">Beginner</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Web Development</td>
+                            <td class="text-center"><img src="assets/check.png" alt=""></td>
+                            <td class="text-center"></td>
+                            <td class="text-center">Beginner</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Copywriting</td>
+                            <td class="text-center"></td>
+                            <td class="text-center"><img src="assets/check.png" alt=""></td>
+                            <td class="text-center">Beginner</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">SEO Specialist</td>
+                            <td class="text-center"><img src="assets/check.png" alt=""></td>
+                            <td class="text-center"></td>
+                            <td class="text-center">Beginner</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="fourth-section">
+            <h2 class="purple-subheader fw-bold text-center text-md-start">About Us</h2>
+            <h1 class="section-header text-center text-md-start">Course Terlaris Bulan Ini!</h1>
+            <div class="row mt-4">
+                <div class="col-md-4 mt-3">
+                    <div class="card card-course img-fluid">
+                        <img src="assets/course-image.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-2">
+                            <span class="kategori-course fw-bold">Website Development</span>
+                            <h5 class="card-title card-title-course fw-bold mb-3">Belajar HTML, CSS Buat Pemula Sampai Jago!</h5>
+                            <p class="card-text">
+                                survived not only five centuries, but also the leap into electronic typesetting, remaining
+                                essentially unchanged. It was popularised in the 1960
+                            </p>
+                            <a href="#" class="btn btn-purple d-block">Lihat Kursus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="card card-course img-fluid">
+                        <img src="assets/course-image.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-2">
+                            <span class="kategori-course fw-bold">Website Development</span>
+                            <h5 class="card-title card-title-course fw-bold mb-3">Belajar HTML, CSS Buat Pemula Sampai Jago!</h5>
+                            <p class="card-text">
+                                survived not only five centuries, but also the leap into electronic typesetting, remaining
+                                essentially unchanged. It was popularised in the 1960
+                            </p>
+                            <a href="#" class="btn btn-purple d-block">Lihat Kursus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="card card-course img-fluid">
+                        <img src="assets/course-image.png" class="card-img-top" alt="...">
+                        <div class="card-body mt-2">
+                            <span class="kategori-course fw-bold">Website Development</span>
+                            <h5 class="card-title card-title-course fw-bold mb-3">Belajar HTML, CSS Buat Pemula Sampai Jago!</h5>
+                            <p class="card-text">
+                                survived not only five centuries, but also the leap into electronic typesetting, remaining
+                                essentially unchanged. It was popularised in the 1960
+                            </p>
+                            <a href="#" class="btn btn-purple d-block">Lihat Kursus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <iframe src="https://www.youtube.com/embed/hMDJyb7VkYw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h2 class="section-header text-center text-md-start">Lihat Cuplikan E-Course</h2>
+                    <p class="mt-3 text-center text-md-start">
+                        Langkah pertama dalam menguasai dunia web development dimulai dari cuplikan demo ecourse HTML. Jelajahi struktur <b>dasar HTML</b> secara interaktif, dan temukan bagaimana kode-kode sederhana dapat menciptakan tampilan yang menakjubkan di browser Anda. Siapkan diri untuk mengembangkan keterampilan Anda dalam membangun halaman web yang menginspirasi dan fungsional
+                    </p>
+                    <p class="text-center text-md-start">
+                        Dengan demo ecourse HTML, Anda akan menguasai dasar-dasar pemrograman web. Pelajari struktur HTML, kode tautan, gambar, dan praktik terbaik untuk memulai perjalanan mengembangkan halaman web yang menarik dan fungsional.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fifth-section">
+            <div class="container spacing section-5">
+                <div class="row mb-4">
+                    <h1 class="section-header text-center text-md-start">Metode Course <b class="change-text">Terbaru!</b></h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-6  d-flex justify-content-center">
+                        <img class="img-fluid " src="assets/audio-learning.png" alt="">
+                    </div>
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h2><b>Audio Learning</b></h2>
+                        <p class="mt-3">
+                            Di Smart, kami menawarkan fitur audio learning yang inovatif untuk memudahkan pembelajaran Anda. Dengarkan materi kursus kapan saja dan di mana saja, sehingga Anda bisa belajar sambil beraktivitas. Bergabunglah dengan kami dan nikmati kemudahan belajar melalui audio learning yang praktis dan efektif.
+                        </p>
+                        <audio src="assets/audio-learning.mp3" type="audio/ogg" class="mt-3" controls></audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-3 spacing mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <nav class="navbar navbar-expand">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/courses.html">Courses</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center text-end">
+                    <p>© Copyrights 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

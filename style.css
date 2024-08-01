@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+.main-navbar .nav-item .nav-link{
+    color: #757575 !important;
+    font-size: 16px;
+}
+
+.main-navbar .nav-item .nav-link.active , .main-navbar .nav-item .nav-link:hover{
+    color: #000 !important;
+    border-bottom: 1px solid #7837F9;
+}
+
+.btn-purple{
+    font-size: 20px;
+    color: #fff;
+    background-color: #7837F9;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 5px 20px 5px 20px;
+}
+
+.btn-purple:hover{
+    background-color: #4a1ca7;
+    color: #fff;
+}
+
+.btn-tentang-kami{
+    font-size: 20px;
+}
+
+/* main-content */
+
+.first-section{
+    margin-top: 80px;
+}
+
+.first-section .header-home{
+    font-size: 61px;
+    font-weight: 800;
+}
+
+.first-section .header-home span{
+    color: #7837F9;
+}
+
+.first-section p{
+    color: #757575;
+    line-height: 45px;
+}
+
+.purple-subheader{
+    color: #7837F9;
+    font-size: 20px;
+}
+
+.section-header{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.second-section p{
+    color: #757575;
+    line-height: 35px;
+}
+
+.second-section .list-group-item{
+    font-size: 20px;
+}
+
+.third-section{
+    margin-top: 50px;  
+}
+
+.third-section table {
+    border-radius: 6px;
+    box-shadow: 20px 20px 0px rgba(108, 108, 108, 0.17);
+}
+
+.third-section table tr td{
+    padding: 20px 20px;
+}
+
+.fourth-section{
+    margin-top: 80px;  
+}
+
+.card-course{
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.15);
+}
+
+.kategori-course{
+    color: #7837F9;
+}
+
+.card-title-course{
+    font-size: 20px;
+}
+
+iframe{
+    max-width :560px;
+    width: 100%;
+    height :315px;
+}
+
+.fifth-section {
+    margin-top: 80px;
+    border: 1px solid #7837F9;
+    padding: 50px;
+    border-radius: 17px;
+}
+
+footer {
+    background-color: #424242;
+}
+
+footer .navbar {
+    box-shadow: unset;
+    background-color: transparent !important;
+}
+
+footer .nav-link {
+    color: white;
+}
+
+footer a.nav-link.active , footer a.nav-link:hover {
+    color: #fff !important;
+    border-bottom: 1px solid #7837F9;
+}
+
+footer p {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .first-section .header-home{
+        font-size: 40px;
+    }
+
+    .btn-purple{
+        width: 100%;
+    }
+
+    .section-header{
+        font-size: 30px;
+    }
+
+    iframe{
+        max-width :560px;
+        width: 100%;
+        height :315px;
+    }
+    
+}
